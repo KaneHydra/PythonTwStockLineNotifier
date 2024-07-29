@@ -26,6 +26,7 @@ df.sort_values(by="TradeVolume", ascending=False, inplace=True)
 df.set_index("Code", inplace=True)
 
 msg = (
+    "25-黃葵昇\n"
     f"時　　間：{datetime.now(pytz.timezone('Asia/Taipei')):%Y-%m-%d %H:%M:%S}\n"
     "每日成交量最高前5支股票/ETF：\n"
 )
